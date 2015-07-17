@@ -1,0 +1,32 @@
+<html>
+<head>
+    <title> Simple HTML Form </title>
+    <link rel="favicon.ico"
+        type="image/ico">
+    <style>
+        h1{
+            font-family:Arial, Helvetica;
+            font-size: 1.2cm;
+        }
+        label{
+        font-family:Arial, Helvetica;
+        font-size: 0.8cm;
+    }
+    </style>
+</head>
+<body>
+<h1> Simple Contact Form </h1>
+<form method='post' action='contactFormProc.php' name='contactform' id='contactform' enctype="multipart/form-data">
+    <label for='fullname'>Full Name: </label>
+    <input type='text' name='fullname'/></br>
+    
+    <label for='email'> Email: </label>
+    <input type='text' name='email'></input></br>
+    <label for='filetoupload'> ProfilePic: </label>
+    <input type='file' name='fileToUpload' id='fileToUpload'></input></br>
+    <input type='submit' name='submit' value='Submit Form'/>
+</form>
+</body>
+</html>
+
+
